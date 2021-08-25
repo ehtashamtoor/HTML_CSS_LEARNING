@@ -1,0 +1,84 @@
+#road1{
+    display: inline-block;
+    margin-left: 40%;
+}
+#road1 div{
+    position: absolute;
+    top: 1em;
+    left: 12%;
+}
+#road1in{
+    width: 15vw;
+    height: 24vw;
+}
+#car1{
+    width: 9%;
+    margin-left: 31vw;
+    transition: margin-top 2s linear 1s;
+    animation: car1 1.5s ease-out 1s;
+    animation-fill-mode: forwards;  
+}
+#car1:hover{
+    animation-play-state: paused;
+}
+/* @keyframes car1 {
+    0%{
+        margin-top: 0%;
+       
+    }
+    25%{
+        margin-top: 20%;
+        
+    }
+    40%{
+        margin-top: 35%;   
+        
+    }
+} */
+
+@keyframes car1 {
+    from{ margin-top: 0%;}
+    to{margin-top: 35%; }
+}
+
+/* car2 */
+
+#road2in{
+    position: absolute;
+    top: 51vh;
+    /* left: 25px; */
+    height: 13vw;
+}
+
+#car2{
+    position: absolute;
+    top: 55%;
+    right: 10%;
+    width: 14%;
+    margin-right: 4%;
+    transition: margin-right 10s linear 1s;
+    animation: car2 5s linear 1s;
+}
+
+/* @keyframes car2 {
+    0%{
+        margin-right: 0%;
+    }
+    25%{
+        margin-right: 20%;
+    }
+    50%{
+        margin-right: 40%;
+    }
+    75%{
+        margin-right: 60%;
+    }
+    100%{
+        margin-right: 75%;
+    }
+} */
+
+@keyframes car2 {
+    from{ margin-right: 0%;}
+    to{margin-right: 75%;  }
+}
