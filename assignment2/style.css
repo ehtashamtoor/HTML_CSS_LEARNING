@@ -1,0 +1,47 @@
+body {
+    margin: 10;
+    padding: 10;
+}
+
+header {
+    background-color: blue;
+    width: 680px;
+    height: 160px;
+}
+
+#lightblue {
+    margin: 10px;
+    background-color: rgb(23, 163, 209);
+    width: 155px;
+    height: 255px;
+    /* float: left; */
+    display: inline-block;
+    vertical-align: top;
+}
+
+#green {
+    background-color: green;
+    width: 490px;
+    height: 255px;
+    margin-top: 10px;
+    /* float: left; */
+    display: inline-block;
+}
+
+.inboxes {
+    background-color: yellow;
+    /* float: left; */
+    display: inline-block;
+    width: 150px;
+    height: 130px;
+    margin: 5px;
+}
+
+#lastBox {
+    background-color: orangered;
+    width: 470px;
+    height: 105px;
+    /* float: left; */
+    display: inline-block;
+    margin: 5px;
+}
