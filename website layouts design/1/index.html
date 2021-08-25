@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Simple layout responsive</title>
+    <style>
+        @media screen and (max-width: 700px) {
+            #content, nav ol
+            {   
+                flex-direction: column;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div id="banner" class="center">Lorem ipsum dolor sit amet consectetur! </div>
+
+    <!-- header -->
+    <div id="header"class="center">
+        <h1>Welcome!</h1>
+        <p>Lorem ipsum dolor sit amet.</p>
+    </div>
+
+    <!-- navbar -->
+    <nav>
+        <ol id="navigation">
+            <li id="item-1">LINK</li>
+            <li id="item-2">LINK</li>
+            <li id="item-3">LINK</li>
+            <li id="item-4">LINK</li>
+        </ol>
+    </nav>
+
+    <div id="content">
+        <aside>
+            <h2><strong>About me</strong></h2>
+            <p>Photo of me:</p>
+            <div class="image aboutmeImage">Image</div>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+            <h2>Contact Detail</h2>
+            <p>Lorem ipsum, dolor sit amet.</p>
+                <div class="image sideimages">Image</div>
+                <div class="image sideimages">Image</div>
+                <div class="image sideimages">Image</div>
+        </aside>
+        <section>
+            <h2>Title Heading</h2>
+            <p><strong>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Impedit, voluptates.</strong></p>
+            <div class="image aboutmeImage">Image</div>
+            <p><strong>Lorem, ipsum dolor.</strong></p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit amet s? Lo!</p>
+
+            <h2>Title Heading</h2>
+            <p><strong>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Impedit, voluptates.</strong></p>
+            <div class="image">Image</div>
+            <p><strong>Lorem, ipsum dolor.</strong></p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit amet consectetur  Lo!</p>
+        </section>
+    </div>
+
+    <footer class="center">
+        <h1>Footer</h1>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,77 @@
+body{
+    margin: 0;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+#banner{
+    background-color: orange;
+    padding: 10px 0px;
+    font-weight: bold;
+}
+
+
+#header{
+    background-color: rgb(23, 179, 140);
+    padding: 40px 0px;
+}
+
+/* navbar */
+
+nav{
+    background-color: rgb(47, 45, 45);
+}
+nav ol{
+    display: flex;
+    align-items: center;
+    margin: 0;
+}
+
+nav ol li{
+    color: white;
+    list-style: none;
+    padding: 10px 10px;
+}
+
+/* content */
+
+#content{
+    display: flex;
+    flex-wrap: wrap;
+}
+aside{
+    flex: 30%;
+    background-color: rgb(224, 220, 220);
+    padding: 10px;
+}
+
+.image{
+    background-color: rgb(93, 92, 92);
+    width: 100%;
+    padding: 15px;
+}
+
+.aboutmeImage{
+    height: 200px;
+}
+
+.sideimages{
+    height: 50px;
+    margin: 10px 0px;
+}
+section{
+    flex: 70%;
+    padding: 20px;
+}
+
+footer{
+    background-color: rgb(236, 234, 234);
+    padding: 18px;
+}
+/* utility classes */
+.center{
+    text-align: center;
+}
+
