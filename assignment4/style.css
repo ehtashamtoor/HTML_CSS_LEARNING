@@ -1,0 +1,161 @@
+            body {
+                margin: 0;
+                padding: 0;
+                font-family: Verdana, Geneva, Tahoma;
+                background-color: rgb(255, 255, 255);
+            }
+            
+            header {
+                background-color: rgb(238, 237, 237);
+                display: flex;
+                justify-content: space-evenly;
+                /* border: 2px solid green; */
+                padding: 5px;
+            }
+            
+            .header-text {
+                color: rgb(180, 179, 179);
+                font-family: Verdana, Geneva, Tahoma;
+                font-size: 12px;
+                padding: 5px 35px;
+                display: inline-block;
+            }
+            
+            .header-text span img {
+                width: 15px;
+                vertical-align: middle;
+                margin-right: 10px;
+            }
+            /* navbar */
+            
+            nav {
+                display: flex;
+                justify-content: space-around;
+                align-items: center;
+            }
+            
+            nav div {
+                display: inline-block;
+            }
+            nav div button:hover{
+                background-color: rgb(31, 166, 211);
+            }
+            nav div img {
+                width: 90px;
+            }
+            
+            #nav-links {
+                display: flex;
+            }
+            
+            #nav-links li {
+                list-style-type: none;
+                padding-left: 30px;
+            }
+            
+            #nav-links li a:hover {
+                color: rgb(250, 155, 45);
+            }
+            
+            #nav-links li a {
+                text-decoration: none;
+                color: black;
+                font-weight: bold;
+                font-size: 11px;
+            }
+            
+            .orangeBtn {
+                background-color: rgb(7, 192, 121);
+                width: 135px;
+                height: 35px;
+                font-size: 10px;
+                border-radius: 22px;
+                color: white;
+                border: none;
+                font-weight: bold;
+            }
+            /* home page text with bg image */
+            
+            #Home {
+                display: flex;
+                align-items: center;
+                position: relative;
+                padding-top: 30px;
+                /* justify-content: space-between; */
+                /* margin: 82px 0px; */
+            }
+            
+            .home-text {
+                display: inline-block;
+                text-align: center;
+                margin: 0px 9px;
+                padding: 0px 60px;
+            }
+            
+            .home-text #item-1 h1 {
+                font-size: 34px;
+                margin-top: 15px;
+            }
+            
+            .home-text #item-2 p {
+                padding: 0px 60px;
+                margin: 35px 0px;
+            }
+            
+            .home-text #item-3 button:hover{background-color: rgb(11, 175, 240);}
+            .orangeBtn:nth-child(2) {
+                background-color: white;
+                color: black;
+                border: none;
+            }
+            
+            .orangeBtn img {
+                width: 8px;
+                margin-left: 6px;
+            }
+            
+            .arrow-btn {
+                width: 40px;
+                height: 40px;
+                background-color: rgb(38, 152, 245);
+                border: none;
+                border-radius: 35px;
+                box-shadow: 1px 1px 3px black;
+            }
+            
+            .arrow-btn img {
+                width: 10px;
+                vertical-align: middle;
+            }
+            
+            .arrow-btn:hover{
+                background-color: green;
+            }
+            #Home::after {
+                content: "";
+                background: url("./backgrounds/bg.jpg") no-repeat center center/cover;
+                position: absolute;
+                top: 0;
+                left: 0;
+                width: 100%;
+                height: 385px;
+                z-index: -1;
+                opacity: 0.8;
+            }
+            /* services sections */
+            
+            #services-box {
+                text-align: center;
+                /* border: 2px solid green; */
+                /* margin: 120px 0px; */
+                padding: 168px 0px;
+                width: 500px;
+                margin: auto;
+                
+            }
+            
+            #services-box h1 {
+                font-size: 22px;
+            }
+            
+            
