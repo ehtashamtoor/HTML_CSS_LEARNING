@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Landing Web Page</title>
+    <style>
+        @media  screen and (max-width:792px) {
+            #bottom{
+                margin-top: 5%;
+            }
+        }
+        @media  screen and (max-width:642px){
+            header, section, #bottom{
+                flex-direction: column;
+            }
+            header img{
+                margin: 0 auto 20px auto;
+                width: 14%;
+            }
+            .nav{
+                margin: 0;
+            }
+
+            section{
+                justify-content: center;
+            }
+            section::before{
+                height: 125%;
+            }
+            section #left-item{
+                margin: 5% auto auto auto;
+                width: 50%;
+            }
+            section #left-item div img{
+                width: 10%;
+            }
+            section #right-item{
+                margin: 5% 46% auto auto;
+            }
+
+            #bottom{
+                justify-content:initial;
+            }
+            #bottom > div{
+                margin: 20px 0;
+            }
+            #bottom #socials{
+                margin: 0;
+            }
+            
+        }
+
+        @media  screen and (max-width:400px){
+            *{
+                margin: 5px 0px;
+            }
+            .nav li{
+                padding: 0 0.4em;
+            }
+            section::before{
+                height: 112%;
+            }
+            section #left-item{
+                margin-left: 34px;
+                font-size: 0.7em;
+            }
+            #bottom{
+                height: 21vh;
+            }
+            #bottom #socials{
+                margin: 5px 0px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- header -->
+    <header>
+        
+            <img src="./logo.png" alt="LOGO">
+
+        <ol class="nav">
+            <li>Home</li>
+            <li>Gallery</li>
+            <li>About</li>
+            <li>Contact</li>
+            <li>FAQ</li>
+        </ol>
+    </header>
+
+    <!-- center text -->
+
+    <section>
+        <div id="left-item">
+            <h3>NEW RELEASE</h3>
+            <h1>VIRTUAL<br>REALITY<br>EXPERIENCE</h1>
+            <div>
+                <h5>BUY NOW</h5>
+                <img src="./arrow.png" alt="">
+            </div>
+        </div>
+        <div id="right-item">
+            <h4>DISCOUNT<br>UPTO 70% OFF</h4>
+            <p>Lorem, ipsum dolor sit <br>amet consectetur adipisicing <br>elit. Iusto, fugiat!</p>
+        </div>
+    </section>
+
+    <div id="bottom">
+        <div>
+            <a href="www.mysite.com">www.techxyz.com</a>
+        </div>
+        <div id="socials">
+            <img src="./icons/facebook.png">
+            <img src="./icons/insta.png">
+            <img src="./icons/twitter.png">
+            <img src="./icons/whatsapp.png">
+        </div>
+    </div>
+</body>
+</html>
